@@ -357,7 +357,6 @@ html {
     grid-row: 1/2;
     background-image: url('images.about/about1.jpg');
     animation: backgroundMove 50s linear infinite;
-  
 }
 
 .about-us .section:nth-of-type(2) {
@@ -374,9 +373,9 @@ html {
 }
 
 .about-us .section:nth-of-type(4) {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    background-image: url('images.about/about3.jpg');
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-image: url('images.about/about3.jpg');
 }
 
 @keyframes slide-in {
@@ -396,4 +395,44 @@ p1 {
   font-size: 20px;
 }
 
+.main-heading {
+  background: white;
+  border-radius: 5px;
+  border-style: outset;
+}
 
+.donate-box {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 300px;
+  height: 400px;
+  background: goldenrod;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  transition: background-color 0.3s ease-out;
+  border-radius: 8px;
+}
+.donate-box p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.qr-code {
+  width: 150px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.underline-text {
+  
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+.donate-box:hover {
+  background-color: black;
+}
